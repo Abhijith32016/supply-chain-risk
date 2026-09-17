@@ -1,0 +1,39 @@
+=== SUPPLY CHAIN DISRUPTION RISK — EDA SUMMARY ===
+
+Overall disruption rate: 23.50%
+
+Disruption rate by transport mode:
+transport_mode
+Sea     0.268
+Rail    0.242
+Air     0.227
+Road    0.214
+
+Disruption rate by region:
+region
+Middle East/Africa    0.249
+Asia Pacific          0.236
+Latin America         0.231
+Europe                0.231
+North America         0.226
+
+Correlation (supplier_reliability_score vs disruption_flag): -0.102
+
+Average delay (days) by composite risk tier:
+risk_tier
+Low       2.01
+Medium    3.25
+
+Top 10 highest-risk suppliers (min 20 orders):
+             orders  disruption_rate  avg_delay
+supplier_id                                    
+SUP-035         154            0.377      3.539
+SUP-023         144            0.347      3.174
+SUP-017         148            0.304      3.182
+SUP-004         147            0.299      3.190
+SUP-018         158            0.297      2.766
+SUP-015         170            0.294      2.706
+SUP-028         150            0.293      2.473
+SUP-021         135            0.281      2.030
+SUP-034         154            0.279      2.403
+SUP-020         151            0.258      2.053
